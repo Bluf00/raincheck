@@ -1,0 +1,48 @@
+
+*{
+  
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  background-color: beige;
+}
+
+.container{
+  text-align: center;
+  background-color: blue;
+
+}
+
+.images-container{
+  display: inline-block;
+  width: 5px; /* Adjust the width as needed */
+  height: 5px; /* Maintain the aspect ratio */
+  
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#weather {
+  margin-top: 20px;
+}
+
+#history {
+  list-style-type: none;
+  padding: 0;
+}
+
+#history li {
+  padding: 5px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  margin: 5px 0;
+  border-radius: 3px;
+}
